@@ -508,9 +508,17 @@ input:focus{
     .contact .box {
         flex-direction: column;
     }
+    /* .contact .box .text{
+        margin-bottom: 30px;
+        padding: 90px 15px;
+    } */
+    .contact .box .input,
+    .contact .box .text{
+    flex-basis: 100%;
+    padding: 50px 15px;
+    }
     .contact .box .text{
         margin-bottom: 30px;
-        padding: 90px 30px;
     }
 }
 @media(max-width: 767px){
@@ -522,9 +530,10 @@ input:focus{
     }
 }
 @media(max-width: 576px){
+    .heading p,
     .container {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .footer .box .text p {
         font-size: 16px;
