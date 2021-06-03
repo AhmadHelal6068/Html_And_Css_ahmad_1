@@ -444,7 +444,7 @@ input:focus{
 .contact .box .input form{
     width: 100%;
 }
-.contact .box .input form input:not(input[type="submit"]){
+.contact .box .input form .input1{
     width: 100%;
     background-color: transparent;
     border: none;
@@ -453,9 +453,6 @@ input:focus{
     line-height: 40px;
     margin-bottom: 10px;
     color: #fff;
-}
-.contact .box .input form input:hover{
-    background-color: #fff;
 }
 .contact .box .input form textarea{
     width: 100%;
