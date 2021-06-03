@@ -508,10 +508,6 @@ input:focus{
     .contact .box {
         flex-direction: column;
     }
-    /* .contact .box .text{
-        margin-bottom: 30px;
-        padding: 90px 15px;
-    } */
     .contact .box .input,
     .contact .box .text{
     flex-basis: 100%;
